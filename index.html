@@ -1,355 +1,1167 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>Web Portfolio | Keegan Sanctis</title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <!-- Font Awesome -->
-        <script src="https://kit.fontawesome.com/987607265d.js" crossorigin="anonymous"></script>
-        <!-- Roboto Slab Font Style -->
-        <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
-        <!-- Local CSS -->
-        <link rel="stylesheet" type="text/css" href="index.css">
-        <!-- Bootstrap CSS -->
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
-    </head>
-    <body>
-        <!-- Navbar Component -->
-        <nav class="navbar navbar-expand-lg sticky-top navbar-dark">
-            <span class="navbar-brand">Keegan Sanctis</span>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item">
-                        <a class="nav-link text-nowrap" href="#about_me">About Me</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-nowrap" href="#education">Education</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-nowrap" href="#certifications">Certifications</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-nowrap" href="#summary_of_skills">Summary of Skills</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-nowrap" href="#professional_experience">Professional Experience</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-nowrap" href="#project">Project</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-nowrap" href="#volunteering">Volunteering</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
-        <!-- Main Content -->
-        <div class="container-fluid">
-            <!-- About Me Section -->
-            <span class="anchor" id="about_me"></span>
-            <div class="row pt-4">
-                <div class="col-md-4 col-12 px-0" style="text-align: center;">
-                    <img src="./images/linkedin_photo.jpeg" alt="Picture of Keegan Sanctis" class="img-thumbnail">
-                    <br>
-                    <h4>Keegan Sanctis</h4>
-                    <p class="font-italic typewriter">I'm a <span class="font-italic" id="jobtitles"></span></p>
-                </div>
-                <div class="col-md-8 col-auto">
-                    <h4><i class="fa-solid fa-user-graduate"></i> Summary</h4>
-                    <p>Innovative and detail-oriented Software Developer with a strong background in Frontend, Backend, and Full Stack Development. Experienced in Software Quality Assurance, with a proven track record of enhancing product reliability. Proficient in C++, JavaScript, and other languages, with a solid foundation in object-oriented design and software development principles. Committed to delivering high-quality software products and solving complex technical challenges. Passionate about continuous learning and effective teamwork.</p>
-                    <h4><i class="fa-solid fa-circle-info"></i> Information</h4>
-                    <p><i class="fa-solid fa-envelope"></i> <span class="font-weight-bold">Email ID:</span> <a href="mailto: keegansanctis@gmail.com">keegansanctis@gmail.com</a></p>
-                    <p><i class="fa-solid fa-mobile"></i> <span class="font-weight-bold">Mobile Number:</span> +1 (647) 493-0390</p>
-                    <p><i class="fa-solid fa-location-dot"></i> <span class="font-weight-bold">Location:</span> Toronto, ON, Canada</p>
-                    <p><i class="fa-brands fa-linkedin"></i> <span class="font-weight-bold">LinkedIn:</span> <a href="https://www.linkedin.com/in/keegan-sanctis" target="_blank">linkedin.com/in/keegan-sanctis</a></p>
-                    <p><i class="fa-solid fa-file"></i> <span class="font-weight-bold">Resume:</span> <a href="Keegan_Sanctis_Resume_2025.pdf" target="_blank">Keegan Sanctis - Resume</a></p>
-                </div>
-            </div>
-            <hr>
-            <!-- Education Section -->
-            <span class="anchor" id="education"></span>
-            <div class="row">
-                <div class="col-auto">
-                    <h4><i class="fa-solid fa-school"></i> Education</h4>
-                </div>
-                <div class="col-12">
-                    <span class="font-weight-bold">University of Waterloo<span class="float-right"><i class="fa-solid fa-location-dot"></i> Waterloo, ON, Canada</span></span>
-                    <p><span class="font-weight-light font-italic">Bachelor of Computer Science, Minor in Economics</span><span class="float-right"><i class="fa-solid fa-calendar"></i> Sep 2018 - Oct 2023</span></p>
-                </div>
-                <div class="col-12">
-                    <span class="font-weight-bold" style="white-space: nowrap;">Fahaheel Al-Watanieh Indian Private School<span class="float-right" style="white-space: nowrap;"><i class="fa-solid fa-location-dot"></i> Ahmadi, Kuwait</span></span>
-                    <p><span class="font-weight-light font-italic">High School Diploma</span><span class="float-right"><i class="fa-solid fa-calendar"></i> Apr 2012 - May 2018</span></p>
-                </div>
-                <div class="col-12">
-                    <span class="font-weight-bold">Indian English Academy School<span class="float-right"><i class="fa-solid fa-location-dot"></i> Salmiya, Kuwait</span></span>
-                    <p><span class="font-weight-light font-italic">Elementary School</span><span class="float-right"><i class="fa-solid fa-calendar"></i> Apr 2004 - Mar 2012</span></p>
-                </div>
-            </div>
-            <hr>
-            <!-- Certifications Section -->
-            <span class="anchor" id="certifications"></span>
-            <div class="row">
-                <div class="col-12">
-                    <h4><i class="fa-solid fa-certificate"></i> Certifications</h4>
-                </div>
-                <div class="col-12">
-                    <span class="font-weight-bold">Codecademy:</span>
-                </div>
-                <div class="col-12">
-                    <div class="row justify-content-center">
-                        <div class="col-auto">
-                            <!-- First card goes here -->
-                            <div class="card text-center border-dark mt-3">
-                                <div class="card-body">
-                                    <img src="./images/icons8-javascript-160.png" class="card-img-top" alt="JavaScript Logo">
-                                    <h5 class="card-title">JavaScript</h5>
-                                    <a href="https://www.codecademy.com/profiles/ksanctis/certificates/705dcb15de0da4dd9d9fc4f3274b430e" target="_blank" class="btn text-white">View Certificate</a>
-                                </div>
-                            </div>
-                        </div>
-              
-                        <div class="col-auto">
-                            <!-- Second card goes here -->
-                            <div class="card text-center border-dark mt-3">
-                                <div class="card-body">
-                                    <img src="./images/icons8-react-162.png" class="card-img-top" alt="React Logo">
-                                    <h5 class="card-title">React</h5>
-                                    <a href="https://www.codecademy.com/profiles/ksanctis/certificates/1bf3e70ae92b43c2a3add66cbfaec661" target="_blank" class="btn text-white">View Certificate</a>
-                                </div>
-                            </div>
-                        </div>
-              
-                        <div class="col-auto">
-                            <!-- Third card goes here -->
-                            <div class="card text-center border-dark mt-3">
-                                <div class="card-body">
-                                    <img src="./images/icons8-html-162.png" class="card-img-top" alt="HTML Logo">
-                                    <h5 class="card-title">HTML</h5>
-                                    <a href="https://www.codecademy.com/profiles/ksanctis/certificates/9eb0741e5ebef1f9f58a53bfac67d3a7" target=_blank class="btn text-white">View Certificate</a>
-                                </div>
-                            </div>
-                        </div>
+<html lang="en">
+<head>
+    <title>Keegan Sanctis | Software Developer</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/987607265d.js" crossorigin="anonymous"></script>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Syne:wght@400;700;800&display=swap" rel="stylesheet">
+    <style>
+        /* ── CSS Variables ── */
+        :root {
+            --navy:       #0a0f1e;
+            --navy-mid:   #0d1630;
+            --navy-light: #112044;
+            --teal:       #0df2c9;
+            --teal-dim:   #0bbfa0;
+            --teal-glow:  rgba(13, 242, 201, 0.15);
+            --white:      #f0f4ff;
+            --muted:      #7a8aaa;
+            --card-bg:    #0f1a35;
+            --border:     rgba(13, 242, 201, 0.2);
+        }
 
-                        <div class="col-auto">
-                            <!-- Fourth card goes here -->
-                            <div class="card text-center border-dark mt-3">
-                                <div class="card-body">
-                                    <img src="./images/icons8-css-logo-162.png" class="card-img-top" alt="CSS Logo">
-                                    <h5 class="card-title">CSS</h5>
-                                    <a href="https://www.codecademy.com/profiles/ksanctis/certificates/9a5bb1fc45b4281af1fffec93b0aaf05" target="_blank" class="btn text-white">View Certificate</a>
-                                </div>
-                            </div>
-                        </div>
+        /* ── Reset & Base ── */
+        *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+        html { scroll-behavior: smooth; }
+        body {
+            background-color: var(--navy);
+            color: var(--white);
+            font-family: 'Space Grotesk', sans-serif;
+            font-size: 16px;
+            line-height: 1.7;
+            overflow-x: hidden;
+        }
+        a { color: var(--teal); text-decoration: none; transition: opacity 0.2s; }
+        a:hover { opacity: 0.8; }
+        img { max-width: 100%; height: auto; display: block; }
 
-                        <div class="col-auto">
-                            <!-- Fifth card goes here -->
-                            <div class="card text-center border-dark mt-3">
-                                <div class="card-body">
-                                    <img src="./images/icons8-bootstrap-162.png" class="card-img-top" alt="Bootstrap Logo">
-                                    <h5 class="card-title">Bootstrap</h5>
-                                    <a href="https://www.codecademy.com/profiles/ksanctis/certificates/0595479d03627a8cb816b069000e4d06" target="_blank"  class="btn text-white">View Certificate</a>
-                                </div>
-                            </div>
-                        </div>
+        /* ── Scrollbar ── */
+        ::-webkit-scrollbar { width: 6px; }
+        ::-webkit-scrollbar-track { background: var(--navy); }
+        ::-webkit-scrollbar-thumb { background: var(--teal-dim); border-radius: 3px; }
 
-                        <div class="col-auto">
-                            <!-- Sixth card goes here -->
-                            <div class="card text-center border-dark mt-3">
-                                <div class="card-body">
-                                    <img src="./images/icons8-sql-162.png" class="card-img-top" alt="SQL Logo">
-                                    <h5 class="card-title">SQL</h5>
-                                    <a href="https://www.codecademy.com/profiles/ksanctis/certificates/042a4e5884e3eb6ea1f2a12be6abb851" target="_blank"  class="btn text-white">View Certificate</a>
-                                </div>
-                            </div>
+        /* ── Noise texture overlay ── */
+        body::before {
+            content: '';
+            position: fixed;
+            inset: 0;
+            background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.04'/%3E%3C/svg%3E");
+            pointer-events: none;
+            z-index: 0;
+            opacity: 0.4;
+        }
+
+        /* ── Navbar ── */
+        nav {
+            position: fixed;
+            top: 0; left: 0; right: 0;
+            z-index: 1000;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0 5%;
+            height: 64px;
+            background: rgba(10, 15, 30, 0.85);
+            backdrop-filter: blur(12px);
+            border-bottom: 1px solid var(--border);
+            transition: all 0.3s;
+        }
+        .nav-brand {
+            font-family: 'Syne', sans-serif;
+            font-weight: 800;
+            font-size: 1.2rem;
+            color: var(--white);
+            letter-spacing: 0.5px;
+        }
+        .nav-brand span { color: var(--teal); }
+        .nav-links { display: flex; gap: 2rem; list-style: none; }
+        .nav-links a {
+            color: var(--muted);
+            font-size: 0.85rem;
+            font-weight: 500;
+            letter-spacing: 0.5px;
+            text-transform: uppercase;
+            transition: color 0.2s;
+        }
+        .nav-links a:hover { color: var(--teal); opacity: 1; }
+        .hamburger { display: none; background: none; border: none; cursor: pointer; padding: 4px; }
+        .hamburger span {
+            display: block; width: 24px; height: 2px;
+            background: var(--white); margin: 5px 0;
+            transition: all 0.3s;
+        }
+
+        /* ── Section base ── */
+        section {
+            position: relative;
+            padding: 100px 8%;
+            z-index: 1;
+        }
+        .section-label {
+            font-family: 'Syne', sans-serif;
+            font-size: 0.75rem;
+            font-weight: 700;
+            letter-spacing: 3px;
+            text-transform: uppercase;
+            color: var(--teal);
+            margin-bottom: 12px;
+        }
+        .section-title {
+            font-family: 'Syne', sans-serif;
+            font-size: clamp(1.8rem, 3vw, 2.6rem);
+            font-weight: 800;
+            color: var(--white);
+            margin-bottom: 48px;
+            position: relative;
+            display: inline-block;
+        }
+        .section-title::after {
+            content: '';
+            position: absolute;
+            bottom: -10px; left: 0;
+            width: 48px; height: 3px;
+            background: var(--teal);
+            border-radius: 2px;
+        }
+
+        /* ── Hero ── */
+        #hero {
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            padding: 0 8%;
+            overflow: hidden;
+        }
+        .hero-bg {
+            position: absolute;
+            inset: 0;
+            background:
+                radial-gradient(ellipse 60% 60% at 70% 50%, rgba(13,242,201,0.07) 0%, transparent 70%),
+                radial-gradient(ellipse 40% 40% at 20% 80%, rgba(17,32,68,0.8) 0%, transparent 60%);
+            z-index: 0;
+        }
+        .hero-grid {
+            position: absolute;
+            inset: 0;
+            background-image:
+                linear-gradient(rgba(13,242,201,0.04) 1px, transparent 1px),
+                linear-gradient(90deg, rgba(13,242,201,0.04) 1px, transparent 1px);
+            background-size: 60px 60px;
+            z-index: 0;
+        }
+        .hero-content {
+            position: relative;
+            z-index: 1;
+            max-width: 780px;
+        }
+        .hero-greeting {
+            font-size: 0.9rem;
+            letter-spacing: 3px;
+            text-transform: uppercase;
+            color: var(--teal);
+            font-weight: 600;
+            margin-bottom: 16px;
+            opacity: 0;
+            animation: fadeUp 0.6s 0.2s forwards;
+        }
+        .hero-name {
+            font-family: 'Syne', sans-serif;
+            font-size: clamp(3rem, 7vw, 6rem);
+            font-weight: 800;
+            line-height: 1.05;
+            margin-bottom: 20px;
+            opacity: 0;
+            animation: fadeUp 0.6s 0.4s forwards;
+        }
+        .hero-name span { color: var(--teal); }
+        .hero-typewriter {
+            font-size: clamp(1.1rem, 2.5vw, 1.4rem);
+            color: var(--muted);
+            margin-bottom: 32px;
+            opacity: 0;
+            animation: fadeUp 0.6s 0.6s forwards;
+            min-height: 2em;
+        }
+        .hero-typewriter span { color: var(--white); font-weight: 500; }
+        #cursor {
+            display: inline-block;
+            width: 2px;
+            height: 1.2em;
+            background: var(--teal);
+            margin-left: 2px;
+            vertical-align: middle;
+            animation: blink 0.8s infinite;
+        }
+        .hero-desc {
+            font-size: 1rem;
+            color: var(--muted);
+            max-width: 540px;
+            margin-bottom: 40px;
+            opacity: 0;
+            animation: fadeUp 0.6s 0.8s forwards;
+        }
+        .hero-cta {
+            display: flex;
+            gap: 16px;
+            flex-wrap: wrap;
+            opacity: 0;
+            animation: fadeUp 0.6s 1s forwards;
+        }
+        .btn-primary {
+            background: var(--teal);
+            color: var(--navy);
+            padding: 14px 32px;
+            border-radius: 6px;
+            font-weight: 700;
+            font-size: 0.9rem;
+            letter-spacing: 0.5px;
+            transition: all 0.2s;
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+        }
+        .btn-primary:hover {
+            background: var(--teal-dim);
+            opacity: 1;
+            transform: translateY(-2px);
+            box-shadow: 0 8px 24px rgba(13,242,201,0.25);
+        }
+        .btn-outline {
+            border: 1.5px solid var(--border);
+            color: var(--white);
+            padding: 14px 32px;
+            border-radius: 6px;
+            font-weight: 600;
+            font-size: 0.9rem;
+            transition: all 0.2s;
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+        }
+        .btn-outline:hover {
+            border-color: var(--teal);
+            color: var(--teal);
+            opacity: 1;
+            transform: translateY(-2px);
+        }
+        .hero-socials {
+            position: absolute;
+            bottom: 48px;
+            left: 8%;
+            display: flex;
+            gap: 20px;
+            opacity: 0;
+            animation: fadeUp 0.6s 1.2s forwards;
+            z-index: 1;
+        }
+        .hero-socials a {
+            color: var(--muted);
+            font-size: 1.3rem;
+            transition: color 0.2s;
+        }
+        .hero-socials a:hover { color: var(--teal); opacity: 1; }
+        .scroll-hint {
+            position: absolute;
+            bottom: 48px;
+            right: 8%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 8px;
+            color: var(--muted);
+            font-size: 0.75rem;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            z-index: 1;
+            opacity: 0;
+            animation: fadeUp 0.6s 1.4s forwards;
+        }
+        .scroll-line {
+            width: 1px;
+            height: 48px;
+            background: linear-gradient(to bottom, var(--teal), transparent);
+            animation: scrollPulse 2s infinite;
+        }
+
+        /* ── About ── */
+        #about { background: var(--navy-mid); }
+        .about-grid {
+            display: grid;
+            grid-template-columns: 300px 1fr;
+            gap: 64px;
+            align-items: start;
+        }
+        .about-photo-wrap {
+            position: relative;
+        }
+        .about-photo-wrap::before {
+            content: '';
+            position: absolute;
+            top: 16px; left: 16px;
+            right: -16px; bottom: -16px;
+            border: 2px solid var(--teal);
+            border-radius: 12px;
+            z-index: 0;
+            opacity: 0.4;
+        }
+        .about-photo-wrap img {
+            position: relative;
+            z-index: 1;
+            border-radius: 10px;
+            width: 100%;
+            object-fit: cover;
+            filter: brightness(0.95);
+        }
+        .about-text h3 {
+            font-family: 'Syne', sans-serif;
+            font-size: 1.6rem;
+            font-weight: 800;
+            margin-bottom: 16px;
+        }
+        .about-text p {
+            color: var(--muted);
+            margin-bottom: 28px;
+            font-size: 0.97rem;
+        }
+        .about-info-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 16px;
+            margin-bottom: 32px;
+        }
+        .info-item {
+            display: flex;
+            align-items: flex-start;
+            gap: 12px;
+        }
+        .info-item i {
+            color: var(--teal);
+            font-size: 1rem;
+            margin-top: 3px;
+            flex-shrink: 0;
+        }
+        .info-item div { font-size: 0.9rem; }
+        .info-item .label { color: var(--muted); font-size: 0.75rem; text-transform: uppercase; letter-spacing: 1px; }
+        .info-item .value { color: var(--white); font-weight: 500; }
+
+        /* ── Skills ── */
+        #skills { }
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+            gap: 24px;
+        }
+        .skill-category {
+            background: var(--card-bg);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            padding: 28px;
+            transition: border-color 0.3s, transform 0.3s;
+        }
+        .skill-category:hover {
+            border-color: var(--teal);
+            transform: translateY(-4px);
+        }
+        .skill-category h4 {
+            font-family: 'Syne', sans-serif;
+            font-size: 0.8rem;
+            font-weight: 700;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            color: var(--teal);
+            margin-bottom: 20px;
+        }
+        .skill-tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+        }
+        .skill-tag {
+            background: rgba(13, 242, 201, 0.08);
+            border: 1px solid rgba(13, 242, 201, 0.15);
+            color: var(--white);
+            padding: 5px 12px;
+            border-radius: 20px;
+            font-size: 0.82rem;
+            font-weight: 500;
+            transition: all 0.2s;
+        }
+        .skill-tag:hover {
+            background: rgba(13, 242, 201, 0.18);
+            border-color: var(--teal);
+            color: var(--teal);
+        }
+
+        /* ── Experience ── */
+        #experience { background: var(--navy-mid); }
+        .timeline {
+            position: relative;
+            padding-left: 32px;
+        }
+        .timeline::before {
+            content: '';
+            position: absolute;
+            left: 0; top: 8px; bottom: 0;
+            width: 2px;
+            background: linear-gradient(to bottom, var(--teal), transparent);
+        }
+        .timeline-item {
+            position: relative;
+            margin-bottom: 48px;
+            padding-left: 32px;
+        }
+        .timeline-dot {
+            position: absolute;
+            left: -38px; top: 8px;
+            width: 14px; height: 14px;
+            border-radius: 50%;
+            background: var(--navy);
+            border: 2px solid var(--teal);
+            box-shadow: 0 0 12px rgba(13,242,201,0.4);
+            transition: all 0.3s;
+        }
+        .timeline-item:hover .timeline-dot {
+            background: var(--teal);
+            box-shadow: 0 0 20px rgba(13,242,201,0.7);
+        }
+        .timeline-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            flex-wrap: wrap;
+            gap: 8px;
+            margin-bottom: 4px;
+        }
+        .timeline-company {
+            font-family: 'Syne', sans-serif;
+            font-size: 1.1rem;
+            font-weight: 700;
+            color: var(--white);
+        }
+        .timeline-period {
+            font-size: 0.8rem;
+            color: var(--teal);
+            font-weight: 600;
+            background: rgba(13,242,201,0.08);
+            padding: 3px 10px;
+            border-radius: 20px;
+            border: 1px solid var(--border);
+            white-space: nowrap;
+        }
+        .timeline-role {
+            font-size: 0.9rem;
+            color: var(--muted);
+            margin-bottom: 4px;
+            font-style: italic;
+        }
+        .timeline-location {
+            font-size: 0.8rem;
+            color: var(--muted);
+            margin-bottom: 14px;
+        }
+        .timeline-location i { color: var(--teal); margin-right: 4px; }
+        .timeline-bullets {
+            list-style: none;
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+        }
+        .timeline-bullets li {
+            font-size: 0.92rem;
+            color: var(--muted);
+            padding-left: 18px;
+            position: relative;
+            line-height: 1.6;
+        }
+        .timeline-bullets li::before {
+            content: '▸';
+            position: absolute;
+            left: 0;
+            color: var(--teal);
+            font-size: 0.8rem;
+        }
+
+        /* ── Projects ── */
+        #projects { }
+        .projects-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 24px;
+        }
+        .project-card {
+            background: var(--card-bg);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            padding: 32px;
+            transition: all 0.3s;
+            display: flex;
+            flex-direction: column;
+        }
+        .project-card:hover {
+            border-color: var(--teal);
+            transform: translateY(-6px);
+            box-shadow: 0 20px 40px rgba(0,0,0,0.3), 0 0 20px rgba(13,242,201,0.08);
+        }
+        .project-icon {
+            font-size: 1.8rem;
+            margin-bottom: 20px;
+            color: var(--teal);
+        }
+        .project-title {
+            font-family: 'Syne', sans-serif;
+            font-size: 1.1rem;
+            font-weight: 700;
+            margin-bottom: 10px;
+        }
+        .project-desc {
+            font-size: 0.9rem;
+            color: var(--muted);
+            margin-bottom: 20px;
+            flex: 1;
+        }
+        .project-tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 6px;
+            margin-bottom: 20px;
+        }
+        .project-tag {
+            background: rgba(13,242,201,0.06);
+            border: 1px solid rgba(13,242,201,0.12);
+            color: var(--teal);
+            padding: 3px 10px;
+            border-radius: 4px;
+            font-size: 0.75rem;
+            font-weight: 600;
+            font-family: 'Space Grotesk', monospace;
+        }
+        .project-links { display: flex; gap: 12px; }
+        .project-link {
+            font-size: 0.82rem;
+            font-weight: 600;
+            color: var(--muted);
+            display: flex;
+            align-items: center;
+            gap: 5px;
+            transition: color 0.2s;
+        }
+        .project-link:hover { color: var(--teal); opacity: 1; }
+
+        /* ── Education & Certifications ── */
+        #edu-certs { background: var(--navy-mid); }
+        .edu-certs-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 64px;
+        }
+        .edu-item {
+            margin-bottom: 28px;
+            padding-bottom: 28px;
+            border-bottom: 1px solid rgba(255,255,255,0.06);
+        }
+        .edu-item:last-child { border-bottom: none; }
+        .edu-school {
+            font-family: 'Syne', sans-serif;
+            font-weight: 700;
+            font-size: 1rem;
+            color: var(--white);
+            margin-bottom: 4px;
+        }
+        .edu-degree {
+            font-size: 0.88rem;
+            color: var(--teal);
+            margin-bottom: 4px;
+        }
+        .edu-period {
+            font-size: 0.8rem;
+            color: var(--muted);
+        }
+        .certs-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 14px;
+        }
+        .cert-card {
+            background: var(--card-bg);
+            border: 1px solid var(--border);
+            border-radius: 10px;
+            padding: 16px 12px;
+            text-align: center;
+            transition: all 0.2s;
+            cursor: pointer;
+            text-decoration: none;
+        }
+        .cert-card:hover {
+            border-color: var(--teal);
+            transform: translateY(-3px);
+            opacity: 1;
+            background: rgba(13,242,201,0.05);
+        }
+        .cert-card img {
+            width: 48px;
+            height: 48px;
+            object-fit: contain;
+            margin: 0 auto 8px;
+        }
+        .cert-name {
+            font-size: 0.78rem;
+            font-weight: 600;
+            color: var(--white);
+        }
+
+        /* ── Volunteering ── */
+        #volunteering { }
+        .vol-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 20px;
+        }
+        .vol-card {
+            background: var(--card-bg);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            padding: 24px;
+            transition: border-color 0.3s;
+        }
+        .vol-card:hover { border-color: var(--teal); }
+        .vol-org {
+            font-family: 'Syne', sans-serif;
+            font-weight: 700;
+            font-size: 0.95rem;
+            color: var(--white);
+            margin-bottom: 4px;
+        }
+        .vol-role { font-size: 0.82rem; color: var(--teal); margin-bottom: 4px; }
+        .vol-period { font-size: 0.78rem; color: var(--muted); margin-bottom: 12px; }
+        .vol-desc { font-size: 0.88rem; color: var(--muted); line-height: 1.6; }
+
+        /* ── Footer ── */
+        footer {
+            position: relative;
+            z-index: 1;
+            background: var(--navy-mid);
+            border-top: 1px solid var(--border);
+            text-align: center;
+            padding: 40px 8%;
+        }
+        .footer-socials {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-bottom: 20px;
+        }
+        .footer-socials a {
+            color: var(--muted);
+            font-size: 1.4rem;
+            transition: color 0.2s;
+            width: 44px; height: 44px;
+            display: flex; align-items: center; justify-content: center;
+            border: 1px solid var(--border);
+            border-radius: 8px;
+        }
+        .footer-socials a:hover { color: var(--teal); border-color: var(--teal); opacity: 1; }
+        .footer-copy { font-size: 0.82rem; color: var(--muted); }
+        .footer-copy span { color: var(--teal); }
+
+        /* ── Animations ── */
+        @keyframes fadeUp {
+            from { opacity: 0; transform: translateY(24px); }
+            to   { opacity: 1; transform: translateY(0); }
+        }
+        @keyframes blink {
+            0%, 100% { opacity: 1; }
+            50%       { opacity: 0; }
+        }
+        @keyframes scrollPulse {
+            0%, 100% { opacity: 0.4; transform: scaleY(1); }
+            50%       { opacity: 1;   transform: scaleY(1.05); }
+        }
+
+        /* ── Fade-in on scroll ── */
+        .reveal {
+            opacity: 0;
+            transform: translateY(32px);
+            transition: opacity 0.7s ease, transform 0.7s ease;
+        }
+        .reveal.visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        /* ── Mobile nav ── */
+        @media (max-width: 768px) {
+            .nav-links {
+                display: none;
+                position: fixed;
+                top: 64px; left: 0; right: 0;
+                background: var(--navy-mid);
+                flex-direction: column;
+                padding: 24px 5%;
+                gap: 1.2rem;
+                border-bottom: 1px solid var(--border);
+            }
+            .nav-links.open { display: flex; }
+            .hamburger { display: block; }
+            .about-grid { grid-template-columns: 1fr; }
+            .about-photo-wrap { max-width: 240px; }
+            .edu-certs-grid { grid-template-columns: 1fr; gap: 40px; }
+            .hero-socials, .scroll-hint { display: none; }
+            section { padding: 80px 5%; }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- ── Navbar ── -->
+    <nav id="navbar">
+        <div class="nav-brand">Keegan <span>Sanctis</span></div>
+        <ul class="nav-links" id="navLinks">
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#edu-certs">Education</a></li>
+            <li><a href="#volunteering">Volunteering</a></li>
+        </ul>
+        <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+            <span></span><span></span><span></span>
+        </button>
+    </nav>
+
+    <!-- ── Hero ── -->
+    <section id="hero">
+        <div class="hero-bg"></div>
+        <div class="hero-grid"></div>
+        <div class="hero-content">
+            <p class="hero-greeting">👋 Hello, I'm</p>
+            <h1 class="hero-name">Keegan<br><span>Sanctis</span></h1>
+            <p class="hero-typewriter">I'm a <span id="jobtitles"></span><span id="cursor"></span></p>
+            <p class="hero-desc">Innovative Software Developer with a passion for building impactful full-stack products — from sleek UIs to robust backends.</p>
+            <div class="hero-cta">
+                <a href="#projects" class="btn-primary"><i class="fa-solid fa-diagram-project"></i> View My Work</a>
+                <a href="Keegan_Sanctis_Resume_2026.pdf" target="_blank" class="btn-outline"><i class="fa-solid fa-file-arrow-down"></i> Download Resume</a>
+            </div>
+        </div>
+        <div class="hero-socials">
+            <a href="https://www.linkedin.com/in/keegan-sanctis" target="_blank" title="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://www.instagram.com/keegan_sanctis" target="_blank" title="Instagram"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.facebook.com/keegan.sanctis.3" target="_blank" title="Facebook"><i class="fa-brands fa-facebook"></i></a>
+        </div>
+        <div class="scroll-hint">
+            <span>Scroll</span>
+            <div class="scroll-line"></div>
+        </div>
+    </section>
+
+    <!-- ── About ── -->
+    <section id="about">
+        <div class="reveal">
+            <p class="section-label">Who I Am</p>
+            <h2 class="section-title">About Me</h2>
+        </div>
+        <div class="about-grid reveal">
+            <div class="about-photo-wrap">
+                <img src="./images/linkedin_photo.jpeg" alt="Keegan Sanctis">
+            </div>
+            <div class="about-text">
+                <h3>Full Stack Developer &amp; Problem Solver</h3>
+                <p>Innovative and detail-oriented Software Developer with a strong background in Frontend, Backend, and Full Stack Development. Experienced in Software Quality Assurance with a proven track record of enhancing product reliability. Committed to delivering high-quality software products and solving complex technical challenges.</p>
+                <div class="about-info-grid">
+                    <div class="info-item">
+                        <i class="fa-solid fa-envelope"></i>
+                        <div>
+                            <div class="label">Email</div>
+                            <div class="value"><a href="mailto:keegansanctis@gmail.com">keegansanctis@gmail.com</a></div>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fa-solid fa-mobile"></i>
+                        <div>
+                            <div class="label">Phone</div>
+                            <div class="value">+1 (227) 248-1667</div>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <div>
+                            <div class="label">Location</div>
+                            <div class="value">College Park, MD, USA</div>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fa-brands fa-linkedin"></i>
+                        <div>
+                            <div class="label">LinkedIn</div>
+                            <div class="value"><a href="https://www.linkedin.com/in/keegan-sanctis" target="_blank">keegan-sanctis</a></div>
                         </div>
                     </div>
                 </div>
+                <a href="Keegan_Sanctis_Resume_2026.pdf" target="_blank" class="btn-primary" style="display:inline-flex;">
+                    <i class="fa-solid fa-file"></i> View Resume
+                </a>
             </div>
-            <hr>
-            <!-- Summary of Skills Section -->
-            <span class="anchor" id="summary_of_skills"></span>
-            <div class="row">
-                <div class="col-auto">
-                    <h4><i class="fa-solid fa-database"></i> Summary of Skills</h4>
-                </div>
-                <div class="col-12">
-                    <p class="font-weight-bold">Technical Skills (Programming): <span class="font-weight-normal">C++ | C | JavaScript | HTML5 | CSS3 | Angular | React | Bootstrap | Python | Kotlin | SQL | Ionic | Linux</span></p>
-                    <p class="font-weight-bold">Technical Skills (Development): <span class="font-weight-normal">Object-Oriented Programming (OOP) | User Interface (UI) Development | Database Management | Version Control (Git) | Continuous Integration (CI) | Agile Methodologies | Software Quality Assurance (QA) | Data Analysis | Business Development</span></p>
-                    <span class="font-weight-bold">Soft Skills: <span class="font-weight-normal">Effective Communication | Team Collaboration | Problem-Solving | Detail-Oriented | Adaptability</span></span>
-                </div>
-            </div>
-            <hr>
-            <!-- Professional Experience Section -->
-            <span class="anchor" id="professional_experience"></span>
-            <div class="row">
-                <div class="col-12">
-                    <h4><i class="fa-solid fa-briefcase"></i> Professional Experience</h4>
-                </div>
-                <div class="row justify-content-center">
-                    <div class="col-auto">
-                        <a class="carousel-control-prev" href="#carouselProfessionalExperience" role="button" data-slide="prev">
-                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                            <span class="sr-only">Previous</span>
-                        </a>
-                    </div>
-                    <div class="col-md-11 col-9 px-0">
-                        <div id="carouselProfessionalExperience" class="carousel slide" data-interval="false" data-ride="carousel">
-                            <ol class="carousel-indicators">
-                                <li data-target="#carouselProfessionalExperience" data-slide-to="0" class="active"></li>
-                                <li data-target="#carouselProfessionalExperience" data-slide-to="1"></li>
-                                <li data-target="#carouselProfessionalExperience" data-slide-to="2"></li>
-                                <li data-target="#carouselProfessionalExperience" data-slide-to="3"></li>
-                                <li data-target="#carouselProfessionalExperience" data-slide-to="4"></li>
-                                <li data-target="#carouselProfessionalExperience" data-slide-to="5"></li>
-                            </ol>
-                            <div class="carousel-inner">
-                                <div class="carousel-item active">
-                                    <span class="font-weight-bold">RoyalTech Electrical<span class="float-right"><i class="fa-solid fa-location-dot"></i> Shuwaikh, Kuwait</span></span>
-                                    <p><span class="font-weight-light font-italic">Full Stack Software & Business Developer</span><span class="float-right"><i class="fa-solid fa-calendar"></i> Jul 2024 - Present</span></p>
-                                    <span><i class="fa-solid fa-angle-right"></i> Built, designed, and developed <a href="https://www.royaltechkuwait.com" target="_blank">royaltechkuwait.com</a> using React, aimed at expanding the company’s online presence with future plans to integrate full e-commerce functionality.</span>
-                                    <br>
-                                    <span><i class="fa-solid fa-angle-right"></i> Developed a web-based inventory logging system using React, enabling streamlined year-end physical inventory tracking and reducing logging and report generation time by 50%.</span>
-                                    <br>
-                                    <span><i class="fa-solid fa-angle-right"></i> Collaborating with cross-functional teams including marketing and sales to integrate SEO best practices, while also driving growth through improved social media presence and targeted digital marketing strategies.</span>
-                                </div>
-                                <div class="carousel-item">
-                                    <span class="font-weight-bold">D2L<span class="float-right"><i class="fa-solid fa-location-dot"></i> Kitchener, ON, Canada</span></span>
-                                    <p><span class="font-weight-light font-italic">Software Developer</span><span class="float-right"><i class="fa-solid fa-calendar"></i> Sep 2022 - Dec 2022</span></p>
-                                    <span><i class="fa-solid fa-angle-right"></i> Developed substantial enhancements to essential user interface (UI) elements and libraries within Brightspace, D2L’s flagship product, thereby enhancing user experience for a client base of over 1,300 international organizations.</span>
-                                    <br>
-                                    <span><i class="fa-solid fa-angle-right"></i> Collaborated with design and product teams to develop innovative UI components using JavaScript frameworks (React), HTML, and Node.js, resulting in a 20% increase in click-through rates for the Brightspace platform.</span>
-                                    <br>
-                                    <span><i class="fa-solid fa-angle-right"></i> Enhanced the usability and accessibility of Brightspace through strategic and impactful UI development initiatives, resulting in a 15% reduction in user-reported issues.</span>
-                                </div>
-                                <div class="carousel-item">
-                                    <span class="font-weight-bold">Capco<span class="float-right"><i class="fa-solid fa-location-dot"></i> Toronto, ON, Canada</span></span>
-                                    <p><span class="font-weight-light font-italic">Software Engineering Consulting</span><span class="float-right"><i class="fa-solid fa-calendar"></i> Jan 2022 - Apr 2022</span></p>
-                                    <span><i class="fa-solid fa-angle-right"></i> Implemented agile development methodologies to streamline the overhaul of BMO Harris Bank’s online banking app.</span>
-                                    <br>
-                                    <span><i class="fa-solid fa-angle-right"></i> Seamlessly upgraded the codebase from Angular 5 to 13 and Ionic 3 to 5, ensuring the application remained technologically advanced and future-proof, resulting in a page load time decrease of about 35%.</span>
-                                    <br>
-                                    <span><i class="fa-solid fa-angle-right"></i> Worked closely with the QA team to identify and rectify post-upgrade bugs, ensuring the stability and reliability of the application through rigorous testing and maintenance of a robust unit test suite.</span>
-                                </div>
-                                <div class="carousel-item">
-                                    <span class="font-weight-bold">Marsh McLennan<span class="float-right"><i class="fa-solid fa-location-dot"></i> Toronto, ON, Canada</span></span>
-                                    <p><span class="font-weight-light font-italic">Software Developer</span><span class="float-right"><i class="fa-solid fa-calendar"></i> May 2021 - Aug 2021</span></p>
-                                    <span><i class="fa-solid fa-angle-right"></i> Revamped the corporate information systems portal by applying React and Ionic resulting in a 55% increase in session durations.</span>
-                                    <br>
-                                    <span><i class="fa-solid fa-angle-right"></i> Implemented monitoring and automation solutions using Docker and Kubernetes, streamlining infrastructure operations and ensuring system reliability through automated alerts and issue resolution.</span>
-                                    <br>
-                                    <span><i class="fa-solid fa-angle-right"></i> Spearheaded and managed an Automated Regression Test Suite with CodeceptJS Testing, leveraging Playwright as the framework, enabling seamless continuous integration and deployment processes, thus reducing testing time by 30%.</span>
-                                </div>
-                                <div class="carousel-item">
-                                    <span class="font-weight-bold">Pillar To Post<span class="float-right"><i class="fa-solid fa-location-dot"></i> Toronto, ON, Canada</span></span>
-                                    <p><span class="font-weight-light font-italic">IT Support & Quality Assurance</span><span class="float-right"><i class="fa-solid fa-calendar"></i> Sep 2020 - Dec 2020</span></p>
-                                    <span><i class="fa-solid fa-angle-right"></i> Identified and resolved operational challenges for home inspectors by conducting thorough manual testing, resulting in an 80% decrease in software bugs and issues reported by users verified by post-testing error logs.</span>
-                                    <br>
-                                    <span><i class="fa-solid fa-angle-right"></i> Successfully ensured smooth deployment of updated software versions by coordinating with cross-functional teams, resulting in a 50% increase in user satisfaction ratings for the new features implemented.</span>
-                                </div>
-                                <div class="carousel-item">
-                                    <span class="font-weight-bold">Dye & Durham<span class="float-right"><i class="fa-solid fa-location-dot"></i> Toronto, ON, Canada</span></span>
-                                    <p><span class="font-weight-light font-italic">QA Automation Developer</span><span class="float-right"><i class="fa-solid fa-calendar"></i> Jan 2020 - Apr 2020</span></p>
-                                    <span><i class="fa-solid fa-angle-right"></i> Enhanced Econveyance's document management software by developing comprehensive automated testing scripts using Nightwatch.js, to improve software reliability and performance, ensuring robust performance and user satisfaction.</span>
-                                    <br>
-                                    <span><i class="fa-solid fa-angle-right"></i> Identified and reported software issues to the development team leading to a swift resolution of 95% of reported bugs within 24 hours and ensuring an improved user experience for law firms.</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-auto">
-                        <a class="carousel-control-next float-right" href="#carouselProfessionalExperience" role="button" data-slide="next">
-                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                            <span class="sr-only">Next</span>
-                        </a>
-                    </div>
+        </div>
+    </section>
+
+    <!-- ── Skills ── -->
+    <section id="skills">
+        <div class="reveal">
+            <p class="section-label">What I Know</p>
+            <h2 class="section-title">Skills</h2>
+        </div>
+        <div class="skills-grid">
+            <div class="skill-category reveal">
+                <h4><i class="fa-solid fa-code"></i> &nbsp;Languages</h4>
+                <div class="skill-tags">
+                    <span class="skill-tag">JavaScript</span>
+                    <span class="skill-tag">Python</span>
+                    <span class="skill-tag">C++</span>
+                    <span class="skill-tag">C</span>
+                    <span class="skill-tag">Kotlin</span>
+                    <span class="skill-tag">SQL</span>
+                    <span class="skill-tag">HTML5</span>
+                    <span class="skill-tag">CSS3</span>
                 </div>
             </div>
-            <br>
-            <hr>
-            <!-- Project Section -->
-            <span class="anchor" id="project"></span>
-            <div class="row">
-                <div class="col-auto">
-                    <h4><i class="fa-solid fa-diagram-project"></i> Project</h4>
-                </div>
-                <div class="col-12">
-                    <span class="font-weight-bold">Monopoly<span class="float-right font-weight-normal"><i class="fa-solid fa-calendar"></i> Jul 2020 - Aug 2020</span></span>
-                    <br>
-                    <span><i class="fa-solid fa-angle-right"></i> Designed and developed a digital version of the classic game Monopoly, showcasing expertise in C++ programming and Object-Oriented Software Development principles.</span>
-                    <br>
-                    <span><i class="fa-solid fa-angle-right"></i> Implemented advanced algorithms within the game logic to enhance user experience and increase gameplay complexity.</span>
-                    <br>
-                    <br>
+            <div class="skill-category reveal">
+                <h4><i class="fa-solid fa-layer-group"></i> &nbsp;Frameworks & Libraries</h4>
+                <div class="skill-tags">
+                    <span class="skill-tag">React</span>
+                    <span class="skill-tag">Angular</span>
+                    <span class="skill-tag">Ionic</span>
+                    <span class="skill-tag">Bootstrap</span>
+                    <span class="skill-tag">Node.js</span>
+                    <span class="skill-tag">CodeceptJS</span>
                 </div>
             </div>
-            <hr>
-            <!-- Volunteering Section -->
-            <span class="anchor" id="volunteering"></span>
-            <div class="row">
-                <div class="col-auto">
-                    <h4><i class="fa-solid fa-list-ul"></i> Volunteering</h4>
-                </div>
-                <div class="col-12">
-                    <span class="font-weight-bold">StarterHacks - University of Waterloo<span class="float-right font-weight-normal"><i class="fa-solid fa-calendar"></i> Jan 2019</span></span>
-                    <br>
-                    <span class="font-weight-light font-italic">Volunteer</span>
-                    <br>
-                    <span><i class="fa-solid fa-angle-right"></i> Participated in diverse volunteering initiatives during the hackathon, contributing to community outreach programs and projects.</span>
-                    <br>
-                    <span><i class="fa-solid fa-angle-right"></i> Engaged proactively in workshops and presentations hosted by participating companies, gaining valuable insights and networking opportunities.</span>
-                    <br>
-                    <br>
-                </div>
-                <div class="col-12">
-                    <span class="font-weight-bold">Community Church - Kuwait<span class="float-right font-weight-normal"><i class="fa-solid fa-calendar"></i> Sep 2009 - Sep 2019</span></span>
-                    <br>
-                    <span class="font-weight-light font-italic">Mentor</span>
-                    <br>
-                    <span><i class="fa-solid fa-angle-right"></i> Volunteered as an altar server and a mentor in the altar servers ministry, providing training and guidance to newcomers, ensuring they understand their responsibilities and successfully become inducted into the ministry.</span>
-                    <br>
-                    <br>
-                </div>
-                <div class="col-12">
-                    <span class="font-weight-bold">Indian Embassy - Kuwait<span class="float-right font-weight-normal"><i class="fa-solid fa-calendar"></i> Sep 2018</span></span>
-                    <br>
-                    <span class="font-weight-light font-italic">Contributor</span>
-                    <br>
-                    <span><i class="fa-solid fa-angle-right"></i> Took part in collecting and providing essential commodities to aid the flood victims in Kerala, India.</span>
-                    <br>
-                    <br>
-                </div>
-                <div class="col-12">
-                    <span class="font-weight-bold">Phillipine Embassy - Kuwait<span class="float-right font-weight-normal"><i class="fa-solid fa-calendar"></i> Jan 2016</span></span>
-                    <br>
-                    <span class="font-weight-light font-italic">Contributor</span>
-                    <br>
-                    <span><i class="fa-solid fa-angle-right"></i> Took part in collecting and providing essential food commodities for the home-bound and distressed Filipino community in Kuwait.</span>
-                    <br>
-                    <br>
+            <div class="skill-category reveal">
+                <h4><i class="fa-solid fa-wrench"></i> &nbsp;Tools & Practices</h4>
+                <div class="skill-tags">
+                    <span class="skill-tag">Git</span>
+                    <span class="skill-tag">Docker</span>
+                    <span class="skill-tag">Kubernetes</span>
+                    <span class="skill-tag">CI/CD</span>
+                    <span class="skill-tag">Agile</span>
+                    <span class="skill-tag">QA Testing</span>
+                    <span class="skill-tag">Linux</span>
+                    <span class="skill-tag">MySQL</span>
                 </div>
             </div>
         </div>
-        <!-- Footer Section -->
-        <footer class="text-center text-white">
-            <span class="footer-content">Connect - </span>
-            <span><a href="https://www.linkedin.com/in/keegan-sanctis" target="_blank"><i class="fa-brands fa-linkedin"></i></a> 
-                <a href="https://www.instagram.com/keegan_sanctis?igsh=Mmo4eXVxbGxzemk0&utm_source=qr" target="_blank"><i class="fa-brands fa-square-instagram"></i></a> 
-                <a href="https://www.facebook.com/keegan.sanctis.3?mibextid=LQQJ4d" target="_blank"><i class="fa-brands fa-square-facebook"></i></a>
-            </span>
-            <br>
-            <span class="footer-content">Web Portfolio | Keegan Sanctis | 2025 &copy;</span>
-        </footer>
-        <!-- Bootstrap's JavaScript Files -->
-        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
-        <!-- Typewriter and Delete Typewriter Script -->
-        <script src="./scripts/typewriter.js"></script>
-        <!-- Carousel Arrows Display Script -->
-        <script src="./scripts/carouselArrows.js"></script>
-    </body>
+    </section>
+
+    <!-- ── Experience ── -->
+    <section id="experience">
+        <div class="reveal">
+            <p class="section-label">Where I've Worked</p>
+            <h2 class="section-title">Experience</h2>
+        </div>
+        <div class="timeline">
+            <div class="timeline-item reveal">
+                <div class="timeline-dot"></div>
+                <div class="timeline-header">
+                    <span class="timeline-company">RoyalTech Electrical</span>
+                    <span class="timeline-period">Jul 2024 – Aug 2025</span>
+                </div>
+                <div class="timeline-role">Full Stack Software & Business Developer</div>
+                <div class="timeline-location"><i class="fa-solid fa-location-dot"></i> Shuwaikh, Kuwait</div>
+                <ul class="timeline-bullets">
+                    <li>Built and deployed <a href="https://www.royaltechkuwait.com" target="_blank">royaltechkuwait.com</a> using React, expanding the company's digital presence with plans for full e-commerce integration.</li>
+                    <li>Developed a web-based inventory logging system using React, reducing logging and report generation time by 50%.</li>
+                    <li>Drove growth through SEO best practices, social media strategy, and targeted digital marketing campaigns.</li>
+                </ul>
+            </div>
+            <div class="timeline-item reveal">
+                <div class="timeline-dot"></div>
+                <div class="timeline-header">
+                    <span class="timeline-company">D2L</span>
+                    <span class="timeline-period">Sep 2022 – Dec 2022</span>
+                </div>
+                <div class="timeline-role">Software Developer</div>
+                <div class="timeline-location"><i class="fa-solid fa-location-dot"></i> Kitchener, ON, Canada</div>
+                <ul class="timeline-bullets">
+                    <li>Developed enhancements to UI elements within Brightspace, improving UX for 1,300+ international organizations.</li>
+                    <li>Built UI components using React, HTML, and Node.js, resulting in a 20% increase in click-through rates.</li>
+                    <li>Reduced user-reported accessibility issues by 15% through strategic UI development initiatives.</li>
+                </ul>
+            </div>
+            <div class="timeline-item reveal">
+                <div class="timeline-dot"></div>
+                <div class="timeline-header">
+                    <span class="timeline-company">Capco</span>
+                    <span class="timeline-period">Jan 2022 – Apr 2022</span>
+                </div>
+                <div class="timeline-role">Software Engineering Consulting</div>
+                <div class="timeline-location"><i class="fa-solid fa-location-dot"></i> Toronto, ON, Canada</div>
+                <ul class="timeline-bullets">
+                    <li>Overhauled BMO Harris Bank's online banking app using agile development methodologies.</li>
+                    <li>Upgraded codebase from Angular 5→13 and Ionic 3→5, reducing page load time by ~35%.</li>
+                    <li>Collaborated with QA team to ensure stability through rigorous testing and unit test suite maintenance.</li>
+                </ul>
+            </div>
+            <div class="timeline-item reveal">
+                <div class="timeline-dot"></div>
+                <div class="timeline-header">
+                    <span class="timeline-company">Marsh McLennan</span>
+                    <span class="timeline-period">May 2021 – Aug 2021</span>
+                </div>
+                <div class="timeline-role">Software Developer</div>
+                <div class="timeline-location"><i class="fa-solid fa-location-dot"></i> Toronto, ON, Canada</div>
+                <ul class="timeline-bullets">
+                    <li>Revamped corporate information systems portal with React and Ionic, increasing session durations by 55%.</li>
+                    <li>Implemented Docker and Kubernetes monitoring solutions to streamline infrastructure operations.</li>
+                    <li>Spearheaded Automated Regression Test Suite with CodeceptJS/Playwright, reducing testing time by 30%.</li>
+                </ul>
+            </div>
+            <div class="timeline-item reveal">
+                <div class="timeline-dot"></div>
+                <div class="timeline-header">
+                    <span class="timeline-company">Pillar To Post</span>
+                    <span class="timeline-period">Sep 2020 – Dec 2020</span>
+                </div>
+                <div class="timeline-role">IT Support & Quality Assurance</div>
+                <div class="timeline-location"><i class="fa-solid fa-location-dot"></i> Toronto, ON, Canada</div>
+                <ul class="timeline-bullets">
+                    <li>Resolved operational challenges through thorough manual testing, reducing software bugs by 80%.</li>
+                    <li>Coordinated smooth deployment of updated software versions, increasing user satisfaction ratings by 50%.</li>
+                </ul>
+            </div>
+            <div class="timeline-item reveal">
+                <div class="timeline-dot"></div>
+                <div class="timeline-header">
+                    <span class="timeline-company">Dye & Durham</span>
+                    <span class="timeline-period">Jan 2020 – Apr 2020</span>
+                </div>
+                <div class="timeline-role">QA Automation Developer</div>
+                <div class="timeline-location"><i class="fa-solid fa-location-dot"></i> Toronto, ON, Canada</div>
+                <ul class="timeline-bullets">
+                    <li>Developed automated testing scripts using Nightwatch.js for Econveyance's document management software.</li>
+                    <li>Achieved 95% bug resolution within 24 hours, ensuring robust performance for law firm users.</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- ── Projects ── -->
+    <section id="projects">
+        <div class="reveal">
+            <p class="section-label">What I've Built</p>
+            <h2 class="section-title">Projects</h2>
+        </div>
+        <div class="projects-grid">
+            <div class="project-card reveal">
+                <div class="project-icon"><i class="fa-solid fa-globe"></i></div>
+                <div class="project-title">RoyalTech Kuwait Website</div>
+                <div class="project-desc">Designed and built the full company website for RoyalTech Electrical, featuring a modern React frontend with SEO best practices and future e-commerce integration plans.</div>
+                <div class="project-tags">
+                    <span class="project-tag">React</span>
+                    <span class="project-tag">JavaScript</span>
+                    <span class="project-tag">CSS3</span>
+                    <span class="project-tag">SEO</span>
+                </div>
+                <div class="project-links">
+                    <a href="https://www.royaltechkuwait.com" target="_blank" class="project-link"><i class="fa-solid fa-arrow-up-right-from-square"></i> Live Site</a>
+                </div>
+            </div>
+            <div class="project-card reveal">
+                <div class="project-icon"><i class="fa-solid fa-boxes-stacking"></i></div>
+                <div class="project-title">Inventory Management System</div>
+                <div class="project-desc">Full-stack inventory tracking system for RoyalTech spanning 4 store locations, featuring React frontend, MySQL backend, inventory completion locks, and automated report generation.</div>
+                <div class="project-tags">
+                    <span class="project-tag">React</span>
+                    <span class="project-tag">MySQL</span>
+                    <span class="project-tag">Node.js</span>
+                    <span class="project-tag">Railway</span>
+                    <span class="project-tag">Vercel</span>
+                </div>
+                <div class="project-links">
+                    <span class="project-link" style="cursor:default;"><i class="fa-solid fa-lock"></i> Private</span>
+                </div>
+            </div>
+            <div class="project-card reveal">
+                <div class="project-icon"><i class="fa-solid fa-store"></i></div>
+                <div class="project-title">JMJ Inventory System</div>
+                <div class="project-desc">Comprehensive inventory management platform tracking ~12,470 products across multiple store locations, with a React frontend and MySQL backend deployed on Railway and Vercel.</div>
+                <div class="project-tags">
+                    <span class="project-tag">React</span>
+                    <span class="project-tag">MySQL</span>
+                    <span class="project-tag">REST API</span>
+                    <span class="project-tag">Vercel</span>
+                </div>
+                <div class="project-links">
+                    <span class="project-link" style="cursor:default;"><i class="fa-solid fa-lock"></i> Private</span>
+                </div>
+            </div>
+            <div class="project-card reveal">
+                <div class="project-icon"><i class="fa-solid fa-chess-board"></i></div>
+                <div class="project-title">Monopoly (Digital)</div>
+                <div class="project-desc">Fully functional digital version of the classic Monopoly board game, built with C++ showcasing advanced OOP principles, game logic algorithms, and software design patterns.</div>
+                <div class="project-tags">
+                    <span class="project-tag">C++</span>
+                    <span class="project-tag">OOP</span>
+                    <span class="project-tag">Algorithms</span>
+                </div>
+                <div class="project-links">
+                    <span class="project-link" style="cursor:default; color: var(--muted);"><i class="fa-solid fa-calendar"></i> Jul–Aug 2020</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ── Education & Certifications ── -->
+    <section id="edu-certs">
+        <div class="reveal">
+            <p class="section-label">Background</p>
+            <h2 class="section-title">Education & Certifications</h2>
+        </div>
+        <div class="edu-certs-grid">
+            <div class="reveal">
+                <h3 style="font-family:'Syne',sans-serif; font-size:1rem; text-transform:uppercase; letter-spacing:2px; color:var(--teal); margin-bottom:28px;">Education</h3>
+                <div class="edu-item">
+                    <div class="edu-school">University of Maryland, College Park</div>
+                    <div class="edu-degree">Master of Science in Applied Machine Learning</div>
+                    <div class="edu-period"><i class="fa-solid fa-calendar" style="color:var(--teal); margin-right:6px;"></i>Sep 2025 – Present &nbsp;·&nbsp; College Park, MD, USA</div>
+                </div>
+                <div class="edu-item">
+                    <div class="edu-school">University of Waterloo</div>
+                    <div class="edu-degree">Bachelor of Computer Science, Minor in Economics</div>
+                    <div class="edu-period"><i class="fa-solid fa-calendar" style="color:var(--teal); margin-right:6px;"></i>Sep 2018 – Oct 2023 &nbsp;·&nbsp; Waterloo, ON, Canada</div>
+                </div>
+                <div class="edu-item">
+                    <div class="edu-school">Fahaheel Al-Watanieh Indian Private School</div>
+                    <div class="edu-degree">High School Diploma</div>
+                    <div class="edu-period"><i class="fa-solid fa-calendar" style="color:var(--teal); margin-right:6px;"></i>Apr 2012 – May 2018 &nbsp;·&nbsp; Ahmadi, Kuwait</div>
+                </div>
+            </div>
+            <div class="reveal">
+                <h3 style="font-family:'Syne',sans-serif; font-size:1rem; text-transform:uppercase; letter-spacing:2px; color:var(--teal); margin-bottom:28px;">Codecademy Certifications</h3>
+                <div class="certs-grid">
+                    <a href="https://www.codecademy.com/profiles/ksanctis/certificates/705dcb15de0da4dd9d9fc4f3274b430e" target="_blank" class="cert-card">
+                        <img src="./images/icons8-javascript-160.png" alt="JavaScript">
+                        <div class="cert-name">JavaScript</div>
+                    </a>
+                    <a href="https://www.codecademy.com/profiles/ksanctis/certificates/1bf3e70ae92b43c2a3add66cbfaec661" target="_blank" class="cert-card">
+                        <img src="./images/icons8-react-162.png" alt="React">
+                        <div class="cert-name">React</div>
+                    </a>
+                    <a href="https://www.codecademy.com/profiles/ksanctis/certificates/9eb0741e5ebef1f9f58a53bfac67d3a7" target="_blank" class="cert-card">
+                        <img src="./images/icons8-html-162.png" alt="HTML">
+                        <div class="cert-name">HTML</div>
+                    </a>
+                    <a href="https://www.codecademy.com/profiles/ksanctis/certificates/9a5bb1fc45b4281af1fffec93b0aaf05" target="_blank" class="cert-card">
+                        <img src="./images/icons8-css-logo-162.png" alt="CSS">
+                        <div class="cert-name">CSS</div>
+                    </a>
+                    <a href="https://www.codecademy.com/profiles/ksanctis/certificates/0595479d03627a8cb816b069000e4d06" target="_blank" class="cert-card">
+                        <img src="./images/icons8-bootstrap-162.png" alt="Bootstrap">
+                        <div class="cert-name">Bootstrap</div>
+                    </a>
+                    <a href="https://www.codecademy.com/profiles/ksanctis/certificates/042a4e5884e3eb6ea1f2a12be6abb851" target="_blank" class="cert-card">
+                        <img src="./images/icons8-sql-162.png" alt="SQL">
+                        <div class="cert-name">SQL</div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ── Volunteering ── -->
+    <section id="volunteering">
+        <div class="reveal">
+            <p class="section-label">Giving Back</p>
+            <h2 class="section-title">Volunteering</h2>
+        </div>
+        <div class="vol-grid">
+            <div class="vol-card reveal">
+                <div class="vol-org">StarterHacks – University of Waterloo</div>
+                <div class="vol-role">Volunteer</div>
+                <div class="vol-period"><i class="fa-solid fa-calendar" style="color:var(--teal); margin-right:4px;"></i>Jan 2019</div>
+                <div class="vol-desc">Participated in diverse volunteering initiatives, contributed to community outreach, and engaged in workshops hosted by participating companies.</div>
+            </div>
+            <div class="vol-card reveal">
+                <div class="vol-org">Community Church – Kuwait</div>
+                <div class="vol-role">Mentor</div>
+                <div class="vol-period"><i class="fa-solid fa-calendar" style="color:var(--teal); margin-right:4px;"></i>Sep 2009 – Sep 2019</div>
+                <div class="vol-desc">Served as altar server and mentor in the altar servers ministry, providing training and guidance to newcomers over a decade of service.</div>
+            </div>
+            <div class="vol-card reveal">
+                <div class="vol-org">Indian Embassy – Kuwait</div>
+                <div class="vol-role">Contributor</div>
+                <div class="vol-period"><i class="fa-solid fa-calendar" style="color:var(--teal); margin-right:4px;"></i>Sep 2018</div>
+                <div class="vol-desc">Collected and provided essential commodities to aid flood victims in Kerala, India.</div>
+            </div>
+            <div class="vol-card reveal">
+                <div class="vol-org">Philippine Embassy – Kuwait</div>
+                <div class="vol-role">Contributor</div>
+                <div class="vol-period"><i class="fa-solid fa-calendar" style="color:var(--teal); margin-right:4px;"></i>Jan 2016</div>
+                <div class="vol-desc">Collected and provided essential food commodities for the home-bound and distressed Filipino community in Kuwait.</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ── Footer ── -->
+    <footer>
+        <div class="footer-socials">
+            <a href="https://www.linkedin.com/in/keegan-sanctis" target="_blank" title="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://www.instagram.com/keegan_sanctis" target="_blank" title="Instagram"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.facebook.com/keegan.sanctis.3" target="_blank" title="Facebook"><i class="fa-brands fa-facebook"></i></a>
+        </div>
+        <div class="footer-copy">Web Portfolio &nbsp;·&nbsp; <span>Keegan Sanctis</span> &nbsp;·&nbsp; 2026 ©</div>
+    </footer>
+
+    <script>
+        // ── Hamburger Menu ──
+        const hamburger = document.getElementById('hamburger');
+        const navLinks  = document.getElementById('navLinks');
+        hamburger.addEventListener('click', () => navLinks.classList.toggle('open'));
+        navLinks.querySelectorAll('a').forEach(a => a.addEventListener('click', () => navLinks.classList.remove('open')));
+
+        // ── Typewriter ──
+        const jobTitles = ["Software Developer", "Software Engineer", "Frontend Developer", "Full Stack Developer", "Backend Developer"];
+        let i = 0;
+        function typingEffect() {
+            let chars = jobTitles[i].split('');
+            const el = document.getElementById('jobtitles');
+            el.textContent = '';
+            let loop = () => {
+                if (chars.length > 0) { el.textContent += chars.shift(); setTimeout(loop, 90); }
+                else setTimeout(deletingEffect, 1400);
+            };
+            loop();
+        }
+        function deletingEffect() {
+            let chars = jobTitles[i].split('');
+            const el = document.getElementById('jobtitles');
+            let loop = () => {
+                if (chars.length > 0) { chars.pop(); el.textContent = chars.join(''); setTimeout(loop, 55); }
+                else { i = (i + 1) % jobTitles.length; setTimeout(typingEffect, 300); }
+            };
+            loop();
+        }
+        typingEffect();
+
+        // ── Scroll Reveal ──
+        const reveals = document.querySelectorAll('.reveal');
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach((entry, idx) => {
+                if (entry.isIntersecting) {
+                    entry.target.style.transitionDelay = `${(idx % 4) * 0.1}s`;
+                    entry.target.classList.add('visible');
+                    observer.unobserve(entry.target);
+                }
+            });
+        }, { threshold: 0.12 });
+        reveals.forEach(el => observer.observe(el));
+
+        // ── Navbar shadow on scroll ──
+        window.addEventListener('scroll', () => {
+            document.getElementById('navbar').style.boxShadow =
+                window.scrollY > 20 ? '0 4px 24px rgba(0,0,0,0.4)' : 'none';
+        });
+    </script>
+</body>
 </html>
