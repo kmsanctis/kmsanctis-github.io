@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Keegan Sanctis | Software Developer</title>
+    <title>Keegan Sanctis | Web Portfolio</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -9,8 +9,12 @@
     <script src="https://kit.fontawesome.com/987607265d.js" crossorigin="anonymous"></script>
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Syne:wght@400;700;800&display=swap" rel="stylesheet">
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="./favicon.ico">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png">
     <style>
-        /* ── CSS Variables ── */
+        /* CSS Variables */
         :root {
             --navy:       #0a0f1e;
             --navy-mid:   #0d1630;
@@ -24,7 +28,7 @@
             --border:     rgba(13, 242, 201, 0.2);
         }
 
-        /* ── Reset & Base ── */
+        /* Reset & Base */
         *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
         html { scroll-behavior: smooth; }
         body {
@@ -39,12 +43,12 @@
         a:hover { opacity: 0.8; }
         img { max-width: 100%; height: auto; display: block; }
 
-        /* ── Scrollbar ── */
+        /* Scrollbar */
         ::-webkit-scrollbar { width: 6px; }
         ::-webkit-scrollbar-track { background: var(--navy); }
         ::-webkit-scrollbar-thumb { background: var(--teal-dim); border-radius: 3px; }
 
-        /* ── Noise texture overlay ── */
+        /* Noise texture overlay */
         body::before {
             content: '';
             position: fixed;
@@ -55,7 +59,7 @@
             opacity: 0.4;
         }
 
-        /* ── Navbar ── */
+        /* Navbar */
         nav {
             position: fixed;
             top: 0; left: 0; right: 0;
@@ -95,7 +99,7 @@
             transition: all 0.3s;
         }
 
-        /* ── Section base ── */
+        /* Section base */
         section {
             position: relative;
             padding: 100px 8%;
@@ -128,7 +132,7 @@
             border-radius: 2px;
         }
 
-        /* ── Hero ── */
+        /* Hero */
         #hero {
             min-height: 100vh;
             display: flex;
@@ -287,7 +291,7 @@
             animation: scrollPulse 2s infinite;
         }
 
-        /* ── About ── */
+        /* About */
         #about { background: var(--navy-mid); }
         .about-grid {
             display: grid;
@@ -348,8 +352,7 @@
         .info-item .label { color: var(--muted); font-size: 0.75rem; text-transform: uppercase; letter-spacing: 1px; }
         .info-item .value { color: var(--white); font-weight: 500; }
 
-        /* ── Skills ── */
-        #skills { }
+        /* Skills */
         .skills-grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
@@ -396,7 +399,7 @@
             color: var(--teal);
         }
 
-        /* ── Experience ── */
+        /* Experience */
         #experience { background: var(--navy-mid); }
         .timeline {
             position: relative;
@@ -485,8 +488,7 @@
             font-size: 0.8rem;
         }
 
-        /* ── Projects ── */
-        #projects { }
+        /* Projects */
         .projects-grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -551,7 +553,7 @@
         }
         .project-link:hover { color: var(--teal); opacity: 1; }
 
-        /* ── Education & Certifications ── */
+        /* Education & Certifications */
         #edu-certs { background: var(--navy-mid); }
         .edu-certs-grid {
             display: grid;
@@ -613,8 +615,7 @@
             color: var(--white);
         }
 
-        /* ── Volunteering ── */
-        #volunteering { }
+        /* Volunteering */
         .vol-grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
@@ -639,7 +640,7 @@
         .vol-period { font-size: 0.78rem; color: var(--muted); margin-bottom: 12px; }
         .vol-desc { font-size: 0.88rem; color: var(--muted); line-height: 1.6; }
 
-        /* ── Footer ── */
+        /* Footer */
         footer {
             position: relative;
             z-index: 1;
@@ -667,7 +668,7 @@
         .footer-copy { font-size: 0.82rem; color: var(--muted); }
         .footer-copy span { color: var(--teal); }
 
-        /* ── Animations ── */
+        /* Animations */
         @keyframes fadeUp {
             from { opacity: 0; transform: translateY(24px); }
             to   { opacity: 1; transform: translateY(0); }
@@ -681,7 +682,7 @@
             50%       { opacity: 1;   transform: scaleY(1.05); }
         }
 
-        /* ── Fade-in on scroll ── */
+        /* Fade-in on scroll */
         .reveal {
             opacity: 0;
             transform: translateY(32px);
@@ -692,7 +693,7 @@
             transform: translateY(0);
         }
 
-        /* ── Mobile nav ── */
+        /* Mobile nav */
         @media (max-width: 768px) {
             .nav-links {
                 display: none;
@@ -716,7 +717,7 @@
 </head>
 <body>
 
-    <!-- ── Navbar ── -->
+    <!-- Navbar -->
     <nav id="navbar">
         <div class="nav-brand">Keegan <span>Sanctis</span></div>
         <ul class="nav-links" id="navLinks">
@@ -732,7 +733,7 @@
         </button>
     </nav>
 
-    <!-- ── Hero ── -->
+    <!-- Hero -->
     <section id="hero">
         <div class="hero-bg"></div>
         <div class="hero-grid"></div>
@@ -757,7 +758,7 @@
         </div>
     </section>
 
-    <!-- ── About ── -->
+    <!-- About -->
     <section id="about">
         <div class="reveal">
             <p class="section-label">Who I Am</p>
@@ -768,8 +769,8 @@
                 <img src="./images/linkedin_photo.jpeg" alt="Keegan Sanctis">
             </div>
             <div class="about-text">
-                <h3>Full Stack Developer &amp; Problem Solver</h3>
-                <p>Innovative and detail-oriented Software Developer with a strong background in Frontend, Backend, and Full Stack Development. Experienced in Software Quality Assurance with a proven track record of enhancing product reliability. Committed to delivering high-quality software products and solving complex technical challenges.</p>
+                <h3>Software Developer &amp; ML Engineer</h3>
+                <p>Software Developer and ML grad student passionate about building impactful full-stack products. Currently pursuing an MS in Applied Machine Learning at the University of Maryland, bridging the gap between software engineering and data-driven solutions.</p>
                 <div class="about-info-grid">
                     <div class="info-item">
                         <i class="fa-solid fa-envelope"></i>
@@ -807,7 +808,7 @@
         </div>
     </section>
 
-    <!-- ── Skills ── -->
+    <!-- Skills -->
     <section id="skills">
         <div class="reveal">
             <p class="section-label">What I Know</p>
@@ -823,8 +824,8 @@
                     <span class="skill-tag">C</span>
                     <span class="skill-tag">Kotlin</span>
                     <span class="skill-tag">SQL</span>
-                    <span class="skill-tag">HTML5</span>
-                    <span class="skill-tag">CSS3</span>
+                    <span class="skill-tag">HTML</span>
+                    <span class="skill-tag">CSS</span>
                 </div>
             </div>
             <div class="skill-category reveal">
@@ -835,26 +836,24 @@
                     <span class="skill-tag">Ionic</span>
                     <span class="skill-tag">Bootstrap</span>
                     <span class="skill-tag">Node.js</span>
-                    <span class="skill-tag">CodeceptJS</span>
+                    <span class="skill-tag">Docker</span>
                 </div>
             </div>
             <div class="skill-category reveal">
-                <h4><i class="fa-solid fa-wrench"></i> &nbsp;Tools & Practices</h4>
+                <h4><i class="fa-solid fa-wrench"></i> &nbsp;ML & Data Science</h4>
                 <div class="skill-tags">
-                    <span class="skill-tag">Git</span>
-                    <span class="skill-tag">Docker</span>
-                    <span class="skill-tag">Kubernetes</span>
-                    <span class="skill-tag">CI/CD</span>
-                    <span class="skill-tag">Agile</span>
-                    <span class="skill-tag">QA Testing</span>
-                    <span class="skill-tag">Linux</span>
-                    <span class="skill-tag">MySQL</span>
+                    <span class="skill-tag">NumPy</span>
+                    <span class="skill-tag">Pandas</span>
+                    <span class="skill-tag">Scikit-Learn</span>
+                    <span class="skill-tag">Jupyter/Colab</span>
+                    <span class="skill-tag">Model Evaluation</span>
+                    <span class="skill-tag">Feature Engineering</span>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- ── Experience ── -->
+    <!-- Experience -->
     <section id="experience">
         <div class="reveal">
             <p class="section-label">Where I've Worked</p>
@@ -946,7 +945,7 @@
         </div>
     </section>
 
-    <!-- ── Projects ── -->
+    <!-- Projects -->
     <section id="projects">
         <div class="reveal">
             <p class="section-label">What I've Built</p>
@@ -954,13 +953,28 @@
         </div>
         <div class="projects-grid">
             <div class="project-card reveal">
+                <div class="project-icon"><i class="fa-solid fa-brain"></i></div>
+                <div class="project-title">ML & Data Science Research Project</div>
+                <div class="project-desc">Executed the full data science pipeline analyzing the correlation between U.S. gun ownership rates and fatal shooting incidents. Developed and evaluated supervised ML models including Logistic Regression, kNN, and Decision Trees to generate evidence-based policy insights.</div>
+                <div class="project-tags">
+                    <span class="project-tag">Python</span>
+                    <span class="project-tag">NumPy</span>
+                    <span class="project-tag">Pandas</span>
+                    <span class="project-tag">Scikit-Learn</span>
+                    <span class="project-tag">Colab</span>
+                </div>
+                <div class="project-links">
+                    <a href="https://colab.research.google.com/drive/1Z7qEI-g762lY0GFS_4RHecSJBb7CFlmA?usp=sharing" target="_blank" class="project-link"><i class="fa-solid fa-arrow-up-right-from-square"></i> Project</a>
+                </div>
+            </div>
+            <div class="project-card reveal">
                 <div class="project-icon"><i class="fa-solid fa-globe"></i></div>
                 <div class="project-title">RoyalTech Kuwait Website</div>
                 <div class="project-desc">Designed and built the full company website for RoyalTech Electrical, featuring a modern React frontend with SEO best practices and future e-commerce integration plans.</div>
                 <div class="project-tags">
                     <span class="project-tag">React</span>
                     <span class="project-tag">JavaScript</span>
-                    <span class="project-tag">CSS3</span>
+                    <span class="project-tag">CSS</span>
                     <span class="project-tag">SEO</span>
                 </div>
                 <div class="project-links">
@@ -968,7 +982,7 @@
                 </div>
             </div>
             <div class="project-card reveal">
-                <div class="project-icon"><i class="fa-solid fa-boxes-stacking"></i></div>
+                <div class="project-icon"><i class="fa-solid fa-warehouse"></i></div>
                 <div class="project-title">Inventory Management System</div>
                 <div class="project-desc">Full-stack inventory tracking system for RoyalTech spanning 4 store locations, featuring React frontend, MySQL backend, inventory completion locks, and automated report generation.</div>
                 <div class="project-tags">
@@ -979,21 +993,7 @@
                     <span class="project-tag">Vercel</span>
                 </div>
                 <div class="project-links">
-                    <span class="project-link" style="cursor:default;"><i class="fa-solid fa-lock"></i> Private</span>
-                </div>
-            </div>
-            <div class="project-card reveal">
-                <div class="project-icon"><i class="fa-solid fa-store"></i></div>
-                <div class="project-title">JMJ Inventory System</div>
-                <div class="project-desc">Comprehensive inventory management platform tracking ~12,470 products across multiple store locations, with a React frontend and MySQL backend deployed on Railway and Vercel.</div>
-                <div class="project-tags">
-                    <span class="project-tag">React</span>
-                    <span class="project-tag">MySQL</span>
-                    <span class="project-tag">REST API</span>
-                    <span class="project-tag">Vercel</span>
-                </div>
-                <div class="project-links">
-                    <span class="project-link" style="cursor:default;"><i class="fa-solid fa-lock"></i> Private</span>
+                    <a href="https://royaltech-inventory-system.vercel.app/" target="_blank" class="project-link"><i class="fa-solid fa-arrow-up-right-from-square"></i> Live Site</a>
                 </div>
             </div>
             <div class="project-card reveal">
@@ -1012,7 +1012,7 @@
         </div>
     </section>
 
-    <!-- ── Education & Certifications ── -->
+    <!-- Education & Certifications -->
     <section id="edu-certs">
         <div class="reveal">
             <p class="section-label">Background</p>
@@ -1069,7 +1069,7 @@
         </div>
     </section>
 
-    <!-- ── Volunteering ── -->
+    <!-- Volunteering -->
     <section id="volunteering">
         <div class="reveal">
             <p class="section-label">Giving Back</p>
@@ -1103,7 +1103,7 @@
         </div>
     </section>
 
-    <!-- ── Footer ── -->
+    <!-- Footer -->
     <footer>
         <div class="footer-socials">
             <a href="https://www.linkedin.com/in/keegan-sanctis" target="_blank" title="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
@@ -1114,14 +1114,14 @@
     </footer>
 
     <script>
-        // ── Hamburger Menu ──
+        // Hamburger Menu
         const hamburger = document.getElementById('hamburger');
         const navLinks  = document.getElementById('navLinks');
         hamburger.addEventListener('click', () => navLinks.classList.toggle('open'));
         navLinks.querySelectorAll('a').forEach(a => a.addEventListener('click', () => navLinks.classList.remove('open')));
 
-        // ── Typewriter ──
-        const jobTitles = ["Software Developer", "Software Engineer", "Frontend Developer", "Full Stack Developer", "Backend Developer"];
+        // Typewriter
+        const jobTitles = ["Software Developer", "Grad Student", "Sports Enthusiast"];
         let i = 0;
         function typingEffect() {
             let chars = jobTitles[i].split('');
@@ -1144,7 +1144,7 @@
         }
         typingEffect();
 
-        // ── Scroll Reveal ──
+        // Scroll Reveal
         const reveals = document.querySelectorAll('.reveal');
         const observer = new IntersectionObserver((entries) => {
             entries.forEach((entry, idx) => {
@@ -1157,7 +1157,7 @@
         }, { threshold: 0.12 });
         reveals.forEach(el => observer.observe(el));
 
-        // ── Navbar shadow on scroll ──
+        // Navbar shadow on scroll
         window.addEventListener('scroll', () => {
             document.getElementById('navbar').style.boxShadow =
                 window.scrollY > 20 ? '0 4px 24px rgba(0,0,0,0.4)' : 'none';
